@@ -1,7 +1,10 @@
-import { Button } from "@/components/ui/button";
+import { Container, Title } from "@/components/shared";
+
 
 export default function Home() {
   return (
-    <Button variant={"outline"}> Home </Button>
+    <Container className="mt-8">
+      <Title text="Все пиццы" size="lg" className="font-extrabold" />
+    </Container>
   );
 }
