@@ -7,7 +7,20 @@ export default function Home() {
         <Title text="Все пиццы" size="lg" className="font-extrabold" />
       </Container>
       <TopBar />
-      <div style={{ height: '10000px' }} />
+      <Container className="pb-14">
+        <div className="flex gap-[60px]">
+
+          <div className="w-[250px]">
+            Filters
+          </div>
+          <div className="flex-1">
+            <div className="flex flex-col gap-16">
+              Pizza list
+            </div>
+          </div>
+
+        </div>
+      </Container>
     </>
   );
 }
